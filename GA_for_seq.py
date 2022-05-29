@@ -11,10 +11,19 @@ import os
 
 
 load_dotenv()
+# kelias iki .fasta formato failo į kurį rašoma populiacija
 POPULATION_PATH=os.getenv('POPULATION_PATH')
+
+# kelias iki blast programinio įrankio
 BLAST_PATH=os.getenv('BLAST_PATH')
+
+# kelias iki realių duomenų .fna failų
 REAL_DB_PATHS=os.getenv('REAL_DB_PATH')
+
+# kelias iki dirbtinių duomenų .fna failų
 ARTIFICIAL_DB_PATHS=os.getenv('ARTIFICIAL_DB_PATHS')
+
+# kelias iki failo į kurį rašomas rezultatas
 OUTPUT_PATH=os.getenv('OUTPUT_PATH')
 
 
